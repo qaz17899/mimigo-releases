@@ -1,13 +1,13 @@
 {
-  "version": "0.0.3",
-  "publishedAt": "2026-05-20T22:17:38Z",
+  "version": "0.1.0",
+  "publishedAt": "2026-05-21T00:22:56Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "f70cb149721aa7bd29c88ae180618f8b6c2a43e56e4b1fe04b8a6fca60a458b8",
-  "sizeBytes": 49805312,
+  "sha256": "ea396bf6396b43225c64ca6e13e4fd3bb6f3e16d5c60b679f940e02cf7cd3693",
+  "sizeBytes": 49817600,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "1dc0fb6c1ea5a21ce7841df8216cd028df7844c7",
+  "sourceCommit": "adb1358c5cc15c10aa2a33b6bd12b9e8b0713eaa",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe"
 }
