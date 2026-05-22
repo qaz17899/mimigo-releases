@@ -1,16 +1,23 @@
 {
-  "version": "0.1.5",
-  "publishedAt": "2026-05-22T12:43:41Z",
+  "version": "0.1.6",
+  "publishedAt": "2026-05-22T13:31:41Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "b90fd8bbe2b8e3ba49bd72e1329423d0d07995ac723f877e52ca8adb6e3a1f51",
-  "sizeBytes": 49932288,
+  "sha256": "1885412d04b6a25912d1dc1fc3c79cc5b9337790a9d53cf0714458bf23069732",
+  "sizeBytes": 49933312,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "38f48256714b43fd5f916a503841651f939bfb54",
+  "sourceCommit": "7d94896bc322063481d2e9d5223b0b97e871e56a",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.1.6",
+      "publishedAt": "2026-05-22T13:29:41Z",
+      "highlights": [
+        "修正新增品項單填入既有原物料時，會自動顯示並鎖定原物料主檔欄位。"
+      ]
+    },
     {
       "version": "0.1.5",
       "publishedAt": "2026-05-22T12:41:51Z",
