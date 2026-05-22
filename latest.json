@@ -1,13 +1,72 @@
 {
-  "version": "0.1.0",
-  "publishedAt": "2026-05-21T00:22:56Z",
+  "version": "0.1.5",
+  "publishedAt": "2026-05-22T12:43:41Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "ea396bf6396b43225c64ca6e13e4fd3bb6f3e16d5c60b679f940e02cf7cd3693",
-  "sizeBytes": 49817600,
+  "sha256": "b90fd8bbe2b8e3ba49bd72e1329423d0d07995ac723f877e52ca8adb6e3a1f51",
+  "sizeBytes": 49932288,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "adb1358c5cc15c10aa2a33b6bd12b9e8b0713eaa",
+  "sourceCommit": "38f48256714b43fd5f916a503841651f939bfb54",
   "updaterName": "mimigo-updater.exe",
-  "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe"
+  "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
+  "releases": [
+    {
+      "version": "0.1.5",
+      "publishedAt": "2026-05-22T12:41:51Z",
+      "highlights": [
+        "新增品項單工作區，可從獨立表單建立品項與配方資料。",
+        "新增列印公司小標，盤點與作業單列印輸出可顯示公司識別。",
+        "版本更新頁新增每個版本的更新內容列表。",
+        "新增發布 manifest 的版本更新內容欄位，發版時會驗證 release notes。",
+        "修正新增品項單空白列與錯誤訊息顯示問題。",
+        "強化排序、小數、選項參照與偏好儲存的資料驗證，異常會明確暴露。"
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": "2026-05-21T00:22:56Z",
+      "highlights": [
+        "新增工作區復原與重做操作。",
+        "改善資料表選取與欄位釘選的互動穩定性。",
+        "新增資料表欄寬自動調整。",
+        "虛擬化原物料需求欄位，提升大量資料瀏覽效能。",
+        "保留工作區頁面狀態，切換頁籤後可回到原本位置。",
+        "修正欄寬調整與新增設定選項編輯焦點問題。"
+      ]
+    },
+    {
+      "version": "0.0.3",
+      "publishedAt": "2026-05-20T22:17:38Z",
+      "highlights": [
+        "新增 DataGrid 剪貼簿貼上能力。",
+        "穩定資料表渲染並延後搜尋篩選，提升大型表格操作流暢度。",
+        "延後載入頁面專用前端 bundle，縮短初始載入負擔。",
+        "新增後端請求記錄與 CI 檢查基線。",
+        "補上前端 Vitest 測試基線與品質檢查。"
+      ]
+    },
+    {
+      "version": "0.0.2-test",
+      "publishedAt": "2026-05-20T21:04:26Z",
+      "highlights": [
+        "修正更新檢查在舊後端環境可能誤取前端頁面的問題。"
+      ]
+    },
+    {
+      "version": "0.0.1-test",
+      "publishedAt": "2026-05-20T20:55:24Z",
+      "highlights": [
+        "新增一鍵更新流程。",
+        "版本更新頁可檢查最新版並執行更新重啟。"
+      ]
+    },
+    {
+      "version": "0.0.0-test",
+      "publishedAt": "2026-05-20T20:10:42Z",
+      "highlights": [
+        "建立 Windows 發布資產與手動發布指令。"
+      ]
+    }
+  ]
 }
