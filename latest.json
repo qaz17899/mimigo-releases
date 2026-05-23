@@ -1,16 +1,23 @@
 {
-  "version": "0.1.6",
-  "publishedAt": "2026-05-22T13:31:41Z",
+  "version": "0.1.7",
+  "publishedAt": "2026-05-23T02:38:14Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "1885412d04b6a25912d1dc1fc3c79cc5b9337790a9d53cf0714458bf23069732",
-  "sizeBytes": 49933312,
+  "sha256": "72e195417634ee2826c3ccefe14739664fe73615f438cd7179593b64eca9fa22",
+  "sizeBytes": 50933760,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "7d94896bc322063481d2e9d5223b0b97e871e56a",
+  "sourceCommit": "2c4eb2bfe12d4974667794cfd26337b0be5a128e",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.1.7",
+      "publishedAt": "2026-05-23T02:34:38Z",
+      "highlights": [
+        "修正欄寬偏好在縮到最小值時寫入無效值，避免瀏覽器偏好資料格式不相容。"
+      ]
+    },
     {
       "version": "0.1.6",
       "publishedAt": "2026-05-22T13:29:41Z",
