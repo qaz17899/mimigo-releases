@@ -1,16 +1,25 @@
 {
-  "version": "0.1.7",
-  "publishedAt": "2026-05-23T02:38:14Z",
+  "version": "0.1.8",
+  "publishedAt": "2026-05-26T22:07:10Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "72e195417634ee2826c3ccefe14739664fe73615f438cd7179593b64eca9fa22",
-  "sizeBytes": 50933760,
+  "sha256": "60500e3c9ff20d5e18af92248f0990335fa37f6292ab5b75b793b966385ecb85",
+  "sizeBytes": 50946560,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "2c4eb2bfe12d4974667794cfd26337b0be5a128e",
+  "sourceCommit": "668688f95f3aa455c8c9fc2954b1ef8295aed707",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.1.8",
+      "publishedAt": "2026-05-26T22:05:56Z",
+      "highlights": [
+        "新增盤點表、進貨單、盤點單與生產列印單 Excel 匯出，方便現場表單留存與交接。",
+        "資料表匯出改用 ExcelJS 並延後載入匯出 bundle，保留欄寬與表頭樣式。",
+        "改善工作台介面、設定預覽、小數顯示與欄寬偏好，提升長時間資料整理穩定度。"
+      ]
+    },
     {
       "version": "0.1.7",
       "publishedAt": "2026-05-23T02:34:38Z",
