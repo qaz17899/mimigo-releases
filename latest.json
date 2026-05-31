@@ -1,16 +1,25 @@
 {
-  "version": "0.1.8",
-  "publishedAt": "2026-05-26T22:07:10Z",
+  "version": "0.1.9",
+  "publishedAt": "2026-05-31T02:40:49Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "60500e3c9ff20d5e18af92248f0990335fa37f6292ab5b75b793b966385ecb85",
-  "sizeBytes": 50946560,
+  "sha256": "a27055284f8636d2da27bedbcd80b4f2eb19e4d255ce80a0891e50a21c61f59c",
+  "sizeBytes": 51111936,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "668688f95f3aa455c8c9fc2954b1ef8295aed707",
+  "sourceCommit": "daf32eee314ae97af0f175bfd7a0eda665bcd2ff",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.1.9",
+      "publishedAt": "2026-05-31T02:20:54Z",
+      "highlights": [
+        "盤點監控圖表改為延後載入，減少進入工作台時的前端負擔。",
+        "改善資料表、原物料需求視圖與新增品項單的狀態同步，切換頁面、欄位與模式時更穩定。",
+        "強化設定、盤點與列印控制的焦點、提示與無障礙標籤，提升鍵盤操作與長時間整理資料的可用性。"
+      ]
+    },
     {
       "version": "0.1.8",
       "publishedAt": "2026-05-26T22:05:56Z",
