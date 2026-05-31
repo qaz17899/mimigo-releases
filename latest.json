@@ -1,16 +1,25 @@
 {
-  "version": "0.1.9",
-  "publishedAt": "2026-05-31T02:40:49Z",
+  "version": "0.2.0",
+  "publishedAt": "2026-05-31T23:52:19Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "a27055284f8636d2da27bedbcd80b4f2eb19e4d255ce80a0891e50a21c61f59c",
-  "sizeBytes": 51111936,
+  "sha256": "64b8bdbbd302a3c0f27e67b27a5fa37336236611a6dcff60e6d6aaf3b9c57c74",
+  "sizeBytes": 51118592,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "daf32eee314ae97af0f175bfd7a0eda665bcd2ff",
+  "sourceCommit": "9a8a35a4c0652413779fe831da9531b10d2519b8",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.0",
+      "publishedAt": "2026-05-31T23:49:37Z",
+      "highlights": [
+        "修正工作區刪除語意，刪除品項、區塊或原物料時會同步清理相關引用，避免儲存後留下找不到品項或原物料的 dangling reference。",
+        "校正訂單輸入列的處理方式，清空訂單會保留品項投影語意並在儲存重載後保持一致。",
+        "修正開發模式初次載入工作區時，取消中的 API query 會誤顯示 API request failed 的失敗提示。"
+      ]
+    },
     {
       "version": "0.1.9",
       "publishedAt": "2026-05-31T02:20:54Z",
