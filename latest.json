@@ -1,16 +1,25 @@
 {
-  "version": "0.2.1",
-  "publishedAt": "2026-06-02T00:10:46Z",
+  "version": "0.2.2",
+  "publishedAt": "2026-06-02T16:14:12Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "2c1f1a14a1a78b384f60ca81363c3fb5ff60af4bea5cf89e6d6e75aad1855580",
-  "sizeBytes": 51127808,
+  "sha256": "3225362bc954bd7c35ad2eb77174f31476efa72d154e9203025d267ad8b91790",
+  "sizeBytes": 50929664,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "db2bbfecd7348cf2223030285190430857021804",
+  "sourceCommit": "1ca30df6698f37a01cabad805e9aba5ff3ee1ad6",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.2",
+      "publishedAt": "2026-06-02T16:07:14Z",
+      "highlights": [
+        "套用 Raycast 風格的資料工作台視覺系統，調整暗色與淺色 token、Inter 字體、側欄、工具列與摘要區，提升長時間作業的掃描性。",
+        "重整前端資料模型、API wrapper、偏好儲存與工作區狀態邊界，增加測試覆蓋，讓資料表、原物料需求、作業單與設定流程更穩定。",
+        "修正設定流程名稱保留、側欄項目裁切、設定預覽版面與工具列選單觸發，並加入載入 skeleton、指標變更回饋與受控的輕量動效。"
+      ]
+    },
     {
       "version": "0.2.1",
       "publishedAt": "2026-06-02T00:09:25Z",
