@@ -1,16 +1,25 @@
 {
-  "version": "0.2.0",
-  "publishedAt": "2026-05-31T23:52:19Z",
+  "version": "0.2.1",
+  "publishedAt": "2026-06-02T00:10:46Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "64b8bdbbd302a3c0f27e67b27a5fa37336236611a6dcff60e6d6aaf3b9c57c74",
-  "sizeBytes": 51118592,
+  "sha256": "2c1f1a14a1a78b384f60ca81363c3fb5ff60af4bea5cf89e6d6e75aad1855580",
+  "sizeBytes": 51127808,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "9a8a35a4c0652413779fe831da9531b10d2519b8",
+  "sourceCommit": "db2bbfecd7348cf2223030285190430857021804",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.1",
+      "publishedAt": "2026-06-02T00:09:25Z",
+      "highlights": [
+        "修正盤點表輸入或草稿資料出現 NaN 時會在數值顯示階段中斷畫面的問題，非有限小數會在公式邊界明確失敗。",
+        "統一訂單摘要與盤點監控摘要的視覺層級，讓重點指標更容易掃描。",
+        "新增前端 decimal 邊界規範，避免 NaN 或 Infinity 進入計算、排序與顯示流程。"
+      ]
+    },
     {
       "version": "0.2.0",
       "publishedAt": "2026-05-31T23:49:37Z",
