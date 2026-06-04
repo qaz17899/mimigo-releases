@@ -1,16 +1,25 @@
 {
-  "version": "0.2.2",
-  "publishedAt": "2026-06-02T16:14:12Z",
+  "version": "0.2.3",
+  "publishedAt": "2026-06-04T02:44:13Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "3225362bc954bd7c35ad2eb77174f31476efa72d154e9203025d267ad8b91790",
-  "sizeBytes": 50929664,
+  "sha256": "82cfaa14afe6d44a8f6b9348bd4fc1bd5feab007880638f28aa0cca0b47aa36e",
+  "sizeBytes": 50972160,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "1ca30df6698f37a01cabad805e9aba5ff3ee1ad6",
+  "sourceCommit": "469778f2caa76f603ad026cd047a310740c0c271",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.3",
+      "publishedAt": "2026-06-04T02:42:31Z",
+      "highlights": [
+        "今日生產列新增即時排程預覽與 inspector 主摘要，草稿列會直接反映多做可供應量與展開區塊。",
+        "表頭與摘要改用提示圖示收斂說明文字，讓高密度表格更容易掃描。",
+        "補上 order schedule 計算模型與測試，並收斂 fresh / inventory 的非適用排程欄位。"
+      ]
+    },
     {
       "version": "0.2.2",
       "publishedAt": "2026-06-02T16:07:14Z",
