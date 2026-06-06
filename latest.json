@@ -1,16 +1,25 @@
 {
-  "version": "0.2.4",
-  "publishedAt": "2026-06-06T07:25:00Z",
+  "version": "0.2.5",
+  "publishedAt": "2026-06-06T09:17:17Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "a1c7f3dfa8f4045dfb23eca9b2943bcebc1c18542f87bb2544c429fd28150ddc",
-  "sizeBytes": 51205120,
+  "sha256": "8e4044c50b839c56ffc068ff22a4a40472af9b90683e3655acb2e4976e16406c",
+  "sizeBytes": 51214848,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "0250fabdfdd14c03448afd262aaa5ce09956bfac",
+  "sourceCommit": "a919f6a1f3a369aa7ffac47d4af8599167b3eb73",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.5",
+      "publishedAt": "2026-06-06T09:11:41Z",
+      "highlights": [
+        "月度品項表新增金額差異指標，可用原物料單價看每日與整月差異金額。",
+        "新增主檔順序、數量差異、數量波動、金額差異、金額波動、高單價與未盤點等七種排序。",
+        "缺單價會在月表、摘要與明細中明確標示，不會被當成 0 影響金額判讀。"
+      ]
+    },
     {
       "version": "0.2.4",
       "publishedAt": "2026-06-06T07:21:03Z",
@@ -146,5 +155,5 @@
       ]
     }
   ],
-  "signature": "UqWWSHuD8bMCoWK/a7DRTcJ7Y98O0j5xEHncGu9nGGO2W9bGu1qTI7Ibd/b/a5OdbeOq3i5xQ5HAUgfn87EwBw=="
+  "signature": "C5VjGLRfEs+LvNN8wGGprkifkj8msn4zoRF8TbqAOMNEL47g4tkcWV6I+Sw+flbzkqkWKgrj9wDYJ5wM5D/LDQ=="
 }
