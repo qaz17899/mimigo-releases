@@ -1,16 +1,25 @@
 {
-  "version": "0.2.3",
-  "publishedAt": "2026-06-04T02:44:13Z",
+  "version": "0.2.4",
+  "publishedAt": "2026-06-06T07:25:00Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "82cfaa14afe6d44a8f6b9348bd4fc1bd5feab007880638f28aa0cca0b47aa36e",
-  "sizeBytes": 50972160,
+  "sha256": "a1c7f3dfa8f4045dfb23eca9b2943bcebc1c18542f87bb2544c429fd28150ddc",
+  "sizeBytes": 51205120,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "469778f2caa76f603ad026cd047a310740c0c271",
+  "sourceCommit": "0250fabdfdd14c03448afd262aaa5ce09956bfac",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.4",
+      "publishedAt": "2026-06-06T07:21:03Z",
+      "highlights": [
+        "更新 manifest 新增 Ed25519 簽章驗證，客戶端會先確認發布者身份再接受更新資訊與下載資產。",
+        "強化一鍵更新流程的下載、備份、替換與回滾邊界，並補上 updater helper 的檔案操作測試。",
+        "重整工作區載入、儲存、導覽與訂單規劃模型邊界，降低頁面元件負擔並同步更新後端計算驗證。"
+      ]
+    },
     {
       "version": "0.2.3",
       "publishedAt": "2026-06-04T02:42:31Z",
@@ -136,5 +145,6 @@
         "建立 Windows 發布資產與手動發布指令。"
       ]
     }
-  ]
+  ],
+  "signature": "UqWWSHuD8bMCoWK/a7DRTcJ7Y98O0j5xEHncGu9nGGO2W9bGu1qTI7Ibd/b/a5OdbeOq3i5xQ5HAUgfn87EwBw=="
 }
