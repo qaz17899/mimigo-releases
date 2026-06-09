@@ -1,16 +1,25 @@
 {
-  "version": "0.2.6",
-  "publishedAt": "2026-06-09T08:35:19Z",
+  "version": "0.2.7",
+  "publishedAt": "2026-06-09T11:38:39Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "8d648fb3e798ac2afd2c51b60635d907617b052de1ac87d11e196eda06a173b2",
-  "sizeBytes": 51388416,
+  "sha256": "20e8f734481e5cfbf56f263936edb831ec2c6005808999771b7bc174b3837090",
+  "sizeBytes": 51433472,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "e5c5291ebefffc553c2e9bb6a77c32c649b4ea7d",
+  "sourceCommit": "5058e6f8e12de653c1a0ce810c7526465a09d235",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.7",
+      "publishedAt": "2026-06-09T11:36:11Z",
+      "highlights": [
+        "同步已保存配方的工序到工作單配置，讓作業單沿用既有配方設定。",
+        "補強列印預覽、原物料需求與工序缺資料的空狀態提示，缺資料時更容易判斷下一步。",
+        "收斂靜態面板陰影、eyebrow 標籤與多個工作台字重層級，讓高密度資料介面更安靜一致。"
+      ]
+    },
     {
       "version": "0.2.6",
       "publishedAt": "2026-06-09T08:33:23Z",
@@ -164,5 +173,5 @@
       ]
     }
   ],
-  "signature": "/nlhdTq+FpcdvVuuaQJ++F8U0MlfbG0ak2psF5y30AxcAQ4WqK/AKAeqD77dSh9QiYRuwTVBtfYQ7ZxksVd7CQ=="
+  "signature": "9YKMt0QFR0/IorRd3TXnZf4jlFV/q3BAk2FO736LkikZ4uWWdg0VedFHpiY7kcVt9jCV7A6Xc3IMIpV34bDdBA=="
 }
