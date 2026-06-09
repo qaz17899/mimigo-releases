@@ -1,16 +1,25 @@
 {
-  "version": "0.2.5",
-  "publishedAt": "2026-06-06T09:17:17Z",
+  "version": "0.2.6",
+  "publishedAt": "2026-06-09T08:35:19Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "8e4044c50b839c56ffc068ff22a4a40472af9b90683e3655acb2e4976e16406c",
-  "sizeBytes": 51214848,
+  "sha256": "8d648fb3e798ac2afd2c51b60635d907617b052de1ac87d11e196eda06a173b2",
+  "sizeBytes": 51388416,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "a919f6a1f3a369aa7ffac47d4af8599167b3eb73",
+  "sourceCommit": "e5c5291ebefffc553c2e9bb6a77c32c649b4ea7d",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.6",
+      "publishedAt": "2026-06-09T08:33:23Z",
+      "highlights": [
+        "設定頁新增十組受控的 shadcn/tweakcn 風格主題，可在淺色、深色與系統模式下即時切換。",
+        "改善手機與觸控操作，放大資料表、盤點、設定、列印單與提示訊息的可點擊範圍，長文字也更穩定截斷。",
+        "降低大型資料表、編輯下拉與庫存監控 hover 的重渲染，並避免初始載入提前啟用圖表 chunk，工作台啟動與操作更順。"
+      ]
+    },
     {
       "version": "0.2.5",
       "publishedAt": "2026-06-06T09:11:41Z",
@@ -155,5 +164,5 @@
       ]
     }
   ],
-  "signature": "C5VjGLRfEs+LvNN8wGGprkifkj8msn4zoRF8TbqAOMNEL47g4tkcWV6I+Sw+flbzkqkWKgrj9wDYJ5wM5D/LDQ=="
+  "signature": "/nlhdTq+FpcdvVuuaQJ++F8U0MlfbG0ak2psF5y30AxcAQ4WqK/AKAeqD77dSh9QiYRuwTVBtfYQ7ZxksVd7CQ=="
 }
