@@ -1,16 +1,25 @@
 {
-  "version": "0.2.7",
-  "publishedAt": "2026-06-09T11:38:39Z",
+  "version": "0.2.8",
+  "publishedAt": "2026-06-09T17:19:14Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "20e8f734481e5cfbf56f263936edb831ec2c6005808999771b7bc174b3837090",
-  "sizeBytes": 51433472,
+  "sha256": "c5e09a5b5f0b49eaf66da354429a3c36995d19a599c4ed8be2a79d6e925ee0a3",
+  "sizeBytes": 51435520,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "5058e6f8e12de653c1a0ce810c7526465a09d235",
+  "sourceCommit": "d5059ab650193128162583dd41578f84595d7d63",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.8",
+      "publishedAt": "2026-06-09T17:18:23Z",
+      "highlights": [
+        "資料表新增列改為獨立顯示在清單上方，尚未儲存的資料更容易辨識。",
+        "修正新增列核選狀態同步問題，連續新增與點選多列時不會互相覆蓋選取。",
+        "下拉選單隱藏內部 ID，改以使用者需要的名稱與標籤為主，避免文字被代碼截斷。"
+      ]
+    },
     {
       "version": "0.2.7",
       "publishedAt": "2026-06-09T11:36:11Z",
@@ -173,5 +182,5 @@
       ]
     }
   ],
-  "signature": "9YKMt0QFR0/IorRd3TXnZf4jlFV/q3BAk2FO736LkikZ4uWWdg0VedFHpiY7kcVt9jCV7A6Xc3IMIpV34bDdBA=="
+  "signature": "hawz/JHZU/oivQfYfHJnf/0mw3Wdtymfb5Nr8rFgAO+otr+SdXeiHjJlssfXqO0urq64OuM1s5nVULy2kUY4Aw=="
 }
