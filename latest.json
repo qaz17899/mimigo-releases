@@ -1,16 +1,25 @@
 {
-  "version": "0.2.8",
-  "publishedAt": "2026-06-09T17:19:14Z",
+  "version": "0.2.9",
+  "publishedAt": "2026-06-19T05:06:05Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "c5e09a5b5f0b49eaf66da354429a3c36995d19a599c4ed8be2a79d6e925ee0a3",
-  "sizeBytes": 51435520,
+  "sha256": "8ef5c58171549684a867c190335e7da34fd64b000b39f9549b48f2537da08c40",
+  "sizeBytes": 53004288,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "d5059ab650193128162583dd41578f84595d7d63",
+  "sourceCommit": "a823c9c68e1b745a21f5d037203ae1b6fe3a309c",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.9",
+      "publishedAt": "2026-06-19T04:54:52Z",
+      "highlights": [
+        "修正配方明細在長時間停留時，grouped row model 反覆重刷造成記憶體、DOM 節點與事件監聽持續攀升的問題。",
+        "配方明細改為離頁後卸載，不再把大型隱藏表格保留在背景，切回其他工作頁後記憶體可回落。",
+        "收斂群組折疊狀態的引用穩定性，降低高密度 AG Grid 工作區的同步抖動與額外記憶體壓力。"
+      ]
+    },
     {
       "version": "0.2.8",
       "publishedAt": "2026-06-09T17:18:23Z",
@@ -182,5 +191,5 @@
       ]
     }
   ],
-  "signature": "hawz/JHZU/oivQfYfHJnf/0mw3Wdtymfb5Nr8rFgAO+otr+SdXeiHjJlssfXqO0urq64OuM1s5nVULy2kUY4Aw=="
+  "signature": "lr5o7JkXXAC4JaUWyLYk6t99+89K/EvD5VAx3xnIcxLsGs1qpQFs5N4ShW/RHLzZMWb5/cM2ywJRH402IQrIBw=="
 }

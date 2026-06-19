@@ -4,8 +4,10 @@ setlocal EnableExtensions
 set "APP_DIR=%~dp0"
 set "APP_EXE=%APP_DIR%mimigo.exe"
 set "APP_LOG=%APP_DIR%mimigo.log"
-set "HOST=127.0.0.1"
-set "PORT=18084"
+if not defined MIMIGO_BACKEND_HOST set "MIMIGO_BACKEND_HOST=127.0.0.1"
+if not defined MIMIGO_BACKEND_PORT set "MIMIGO_BACKEND_PORT=18084"
+set "HOST=%MIMIGO_BACKEND_HOST%"
+set "PORT=%MIMIGO_BACKEND_PORT%"
 set "PORT_START=18085"
 set "PORT_END=18100"
 set "APP_URL=http://%HOST%:%PORT%"
@@ -18,7 +20,6 @@ if not exist "%APP_EXE%" (
   exit /b 1
 )
 
-set "MIMIGO_BACKEND_HOST=%HOST%"
 set "MIMIGO_DB_PATH=%APP_DIR%mimigo.db"
 set "MIMIGO_PAUSE_ON_ERROR=0"
 
@@ -26,6 +27,7 @@ call :prepare_port
 set "PORT_RESULT=%ERRORLEVEL%"
 if "%PORT_RESULT%"=="2" exit /b 0
 if not "%PORT_RESULT%"=="0" exit /b 1
+set "MIMIGO_BACKEND_HOST=%HOST%"
 set "MIMIGO_BACKEND_PORT=%PORT%"
 
 :start_new
