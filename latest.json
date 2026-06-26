@@ -1,16 +1,34 @@
 {
-  "version": "0.2.9",
-  "publishedAt": "2026-06-19T05:06:05Z",
+  "version": "0.2.11",
+  "publishedAt": "2026-06-26T04:48:20Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "8ef5c58171549684a867c190335e7da34fd64b000b39f9549b48f2537da08c40",
-  "sizeBytes": 53004288,
+  "sha256": "643066663b342644094665b0157b34a979c9bf099f2eaf9502efa80a2a350482",
+  "sizeBytes": 53072896,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "a823c9c68e1b745a21f5d037203ae1b6fe3a309c",
+  "sourceCommit": "2fed91fa2915d941debfd6d26903cc7d40ad1b06",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.11",
+      "publishedAt": "2026-06-26T04:43:26Z",
+      "highlights": [
+        "把多個工作區控制元件收斂到共用 shadcn primitives，設定、命令選單與工具列互動更一致。",
+        "修正工作區保活、order inspector 與 inventory monitor 的同步與記憶體回落問題。",
+        "移除自訂 row drag 把手，讓表格列拖曳與選取行為更穩定。"
+      ]
+    },
+    {
+      "version": "0.2.10",
+      "publishedAt": "2026-06-21T23:32:57Z",
+      "highlights": [
+        "庫存監控月表改成虛擬化渲染，長列表瀏覽更順，也修正了列定位與圖表重繪的穩定性。",
+        "原物料需求計算路徑做了快取與分配優化，大型矩陣運算更省記憶體。",
+        "工作區的切頁、快篩與拖曳互動再度收斂，操作狀態更穩定。"
+      ]
+    },
     {
       "version": "0.2.9",
       "publishedAt": "2026-06-19T04:54:52Z",
@@ -191,5 +209,5 @@
       ]
     }
   ],
-  "signature": "lr5o7JkXXAC4JaUWyLYk6t99+89K/EvD5VAx3xnIcxLsGs1qpQFs5N4ShW/RHLzZMWb5/cM2ywJRH402IQrIBw=="
+  "signature": "x8Whn1ChR0WtiJgHKABb+2JLPbfQqOy3+woRHaQafzUxmbF4msTRWT93hKPV+I2frIW4RjLHquSuncB906ikCw=="
 }
