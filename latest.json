@@ -1,16 +1,25 @@
 {
-  "version": "0.2.11",
-  "publishedAt": "2026-06-26T04:48:20Z",
+  "version": "0.2.12",
+  "publishedAt": "2026-06-27T03:46:01Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "643066663b342644094665b0157b34a979c9bf099f2eaf9502efa80a2a350482",
-  "sizeBytes": 53072896,
+  "sha256": "8e2862f31cbd21e3fa8632ec12d605f8a878c89be60fe4f200e012f6f2359505",
+  "sizeBytes": 53087232,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "2fed91fa2915d941debfd6d26903cc7d40ad1b06",
+  "sourceCommit": "ea0c883d6634a70ae127e75c24ecf8a9c4c2776a",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.12",
+      "publishedAt": "2026-06-27T03:08:35Z",
+      "highlights": [
+        "庫存頁新增公司別檢視，能直接切換查看各公司用量與差異，不用再靠腦中換算。",
+        "把設定、工具列、篩選與命令選單的操作按鈕收斂到同一套互動樣式，長時間操作更一致，也比較不容易點錯。",
+        "修正 inventory grid 版面、order inspector 同步與工作區記憶體成長問題，切換與停留更穩定。"
+      ]
+    },
     {
       "version": "0.2.11",
       "publishedAt": "2026-06-26T04:43:26Z",
@@ -209,5 +218,5 @@
       ]
     }
   ],
-  "signature": "x8Whn1ChR0WtiJgHKABb+2JLPbfQqOy3+woRHaQafzUxmbF4msTRWT93hKPV+I2frIW4RjLHquSuncB906ikCw=="
+  "signature": "myJs+68yI730KDpQM20RLLE5QGfcM5xl2z+wiyEAHvt4XxstTBnBKHw+uiQ78amzuXpFI5h4+U4E98SLd1JVBg=="
 }
