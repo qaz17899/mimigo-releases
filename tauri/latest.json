@@ -1,11 +1,11 @@
 {
-  "version": "0.2.12",
-  "notes": "- 庫存頁新增公司別檢視，能直接切換查看各公司用量與差異，不用再靠腦中換算。\n- 把設定、工具列、篩選與命令選單的操作按鈕收斂到同一套互動樣式，長時間操作更一致，也比較不容易點錯。\n- 修正 inventory grid 版面、order inspector 同步與工作區記憶體成長問題，切換與停留更穩定。",
-  "pub_date": "2026-06-27T04:25:25Z",
+  "version": "0.2.13",
+  "notes": "- 盤點表取消獨立切頁，改回和其他工作台表格一致的整頁瀏覽，不會再突然跳成另一套節奏。\n- 收斂盤點表殘留的舊 AG Grid 分支設定，表格外觀、捲動與狀態列現在和其他主檔頁面一致。\n- 補上架構防呆檢查，避免盤點表之後又被接回舊的分頁配置。",
+  "pub_date": "2026-06-27T05:20:40Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVWt3VXN0QnlEbWtWeE1IWi82Mld0dDBEQ1pFTmRLeHRKWVBGUWFxRDBES0hkSTZTREFGNmZyUG5nZS9VeFo2dm5BU2R0YUw5dlBSZElIaGZUZHJIanpJRERrMVl5OUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNTM0MzIzCWZpbGU6TWltaWdvXzAuMi4xMl94NjQtc2V0dXAuZXhlCnBNMG1lWHp2OUJRSytkV3Q5UnJOQlR0b0FFMXRrMk9SbTdSTC9iVVdBdXdCVnlBbmFtakt5Z3F4Z1ltdmNCSW56UkJrUXcxdjVnSkRjR0k1VEdmVUNnPT0K",
-      "url": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/tauri/Mimigo_0.2.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVWt3VXN0QnlEbXJOYTRobG5CYXg5eFNVVTJKMjArTy9LbEhNczF6d0tJWjVKeHJLejc0ejdxdUdFeUkyMkkzOFVtck1yK1JHdEVQSStwNCsvUjk5ZXo2OHEyRWpqWHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNTM3NjM5CWZpbGU6TWltaWdvXzAuMi4xM194NjQtc2V0dXAuZXhlCmVGWGh4LzBkZnBJeThJT0NSMjRWMWpCTm5ETCs3RlRlWWZQOS96TXZIdDJReXpaMnlmTmlic2dhNUZncWFncWJtTjlORUdnaWtTaEZ4RytEQXhjMEJ3PT0K",
+      "url": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/tauri/Mimigo_0.2.13_x64-setup.exe"
     }
   }
 }
