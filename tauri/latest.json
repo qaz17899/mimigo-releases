@@ -1,11 +1,11 @@
 {
-  "version": "0.2.10",
-  "notes": "- 庫存監控月表改成虛擬化渲染，長列表瀏覽更順，也修正了列定位與圖表重繪的穩定性。\n- 原物料需求計算路徑做了快取與分配優化，大型矩陣運算更省記憶體。\n- 工作區的切頁、快篩與拖曳互動再度收斂，操作狀態更穩定。",
-  "pub_date": "2026-06-22T00:58:43Z",
+  "version": "0.2.12",
+  "notes": "- 庫存頁新增公司別檢視，能直接切換查看各公司用量與差異，不用再靠腦中換算。\n- 把設定、工具列、篩選與命令選單的操作按鈕收斂到同一套互動樣式，長時間操作更一致，也比較不容易點錯。\n- 修正 inventory grid 版面、order inspector 同步與工作區記憶體成長問題，切換與停留更穩定。",
+  "pub_date": "2026-06-27T04:25:25Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUM0xEZkFwNmhqZlFLb0hONDd1R0lJb3oraHZxRUpkUzFWNlZFSUJnUXBZU2Q1bXViSC9aaTB3SWx3blRvVmZKck13eWZiTXFmQWlmSFdjcjA3VzBKZmNwR09PeHNBbkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMDg5OTIyCWZpbGU6TWltaWdvXzAuMi4xMF94NjQtc2V0dXAuZXhlCjJ6aUV1QTlHRkRDR1VOL041MmhCbHU2Qi9GMVBWQiszT3NrelA4TW91aVRDeFo1cWIxbmdHUmRVbGdYbmFuWnBXSEFXS3ZwZmZBc1JmbkFOQmdLMUFBPT0K",
-      "url": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/tauri/Mimigo_0.2.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVWt3VXN0QnlEbWtWeE1IWi82Mld0dDBEQ1pFTmRLeHRKWVBGUWFxRDBES0hkSTZTREFGNmZyUG5nZS9VeFo2dm5BU2R0YUw5dlBSZElIaGZUZHJIanpJRERrMVl5OUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNTM0MzIzCWZpbGU6TWltaWdvXzAuMi4xMl94NjQtc2V0dXAuZXhlCnBNMG1lWHp2OUJRSytkV3Q5UnJOQlR0b0FFMXRrMk9SbTdSTC9iVVdBdXdCVnlBbmFtakt5Z3F4Z1ltdmNCSW56UkJrUXcxdjVnSkRjR0k1VEdmVUNnPT0K",
+      "url": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/tauri/Mimigo_0.2.12_x64-setup.exe"
     }
   }
 }
