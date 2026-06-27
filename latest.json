@@ -1,16 +1,25 @@
 {
-  "version": "0.2.12",
-  "publishedAt": "2026-06-27T04:34:49Z",
+  "version": "0.2.13",
+  "publishedAt": "2026-06-27T05:18:52Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "35de6f160066dd81f7fcbd5ae1a3dac006ab890633a5c387cb6f6f4954f46e45",
+  "sha256": "e3c3f15e43ea4e0809ce89796f56c7688859da34e6fde28d53b83f168fea7743",
   "sizeBytes": 53087232,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "9e57aedbe73a8ab99279517ea9af54091e020803",
+  "sourceCommit": "80c9f39797f6cab0113dd455c5494909ce3f8187",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.13",
+      "publishedAt": "2026-06-27T05:16:57Z",
+      "highlights": [
+        "盤點表取消獨立切頁，改回和其他工作台表格一致的整頁瀏覽，不會再突然跳成另一套節奏。",
+        "收斂盤點表殘留的舊 AG Grid 分支設定，表格外觀、捲動與狀態列現在和其他主檔頁面一致。",
+        "補上架構防呆檢查，避免盤點表之後又被接回舊的分頁配置。"
+      ]
+    },
     {
       "version": "0.2.12",
       "publishedAt": "2026-06-27T03:08:35Z",
@@ -218,5 +227,5 @@
       ]
     }
   ],
-  "signature": "ZOX71qg7tE7DpK9VVX8TLSLs9wtd5ZULT7bvLGzCnN2Llnx2ByS/qnQ6g1V1E0zujmSxoqHIzD6C2GmKwbRvAQ=="
+  "signature": "JpaIdzGFtt/7wz+EgAjP0NdQAj+R/VypsFyH6HbElKixKyV5rMaaScVw0v/bDXP7H4bkapSovW9amyw+CM8dCA=="
 }
