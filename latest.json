@@ -1,16 +1,25 @@
 {
-  "version": "0.2.13",
-  "publishedAt": "2026-06-27T05:18:52Z",
+  "version": "0.2.14",
+  "publishedAt": "2026-07-01T07:29:24Z",
   "assetName": "mimigo-latest.exe",
   "downloadUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-latest.exe",
-  "sha256": "e3c3f15e43ea4e0809ce89796f56c7688859da34e6fde28d53b83f168fea7743",
-  "sizeBytes": 53087232,
+  "sha256": "ebc4364dbea0b243da3dcc4b11c09658d1ceb9d20ee9fef80b274250690d8613",
+  "sizeBytes": 53852160,
   "launcherName": "start-mimigo.bat",
   "launcherUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/start-mimigo.bat",
-  "sourceCommit": "80c9f39797f6cab0113dd455c5494909ce3f8187",
+  "sourceCommit": "33ed941c0899f56736c091f45646c246b926a994",
   "updaterName": "mimigo-updater.exe",
   "updaterUrl": "https://raw.githubusercontent.com/qaz17899/mimigo-releases/main/mimigo-updater.exe",
   "releases": [
+    {
+      "version": "0.2.14",
+      "publishedAt": "2026-07-01T06:48:41Z",
+      "highlights": [
+        "新增共用列印範本系統，盤點表與作業單可以共用同一套模板、版本與基本資料編輯流程。",
+        "重整列印工作區與模板編輯面板，預覽、列印與 Excel 匯出走同一套版面邏輯，設定位置也更清楚。",
+        "修正匯入舊資料時工序、桶量換算與公司製程預設值遺失的問題，匯入後的作業單資料更完整。"
+      ]
+    },
     {
       "version": "0.2.13",
       "publishedAt": "2026-06-27T05:16:57Z",
@@ -227,5 +236,5 @@
       ]
     }
   ],
-  "signature": "JpaIdzGFtt/7wz+EgAjP0NdQAj+R/VypsFyH6HbElKixKyV5rMaaScVw0v/bDXP7H4bkapSovW9amyw+CM8dCA=="
+  "signature": "lJQ7QPJi1EmoxmJze7cC/XWFg6sQEzz4bclYufAWucxG4fv4HQc+LXiUxAgK01fGkv0Hzst1XoyH1ir4OUSMAw=="
 }
